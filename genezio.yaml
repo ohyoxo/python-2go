@@ -1,14 +1,13 @@
 backend:
     functions:
         - entry: app.py
-          handler: app
-          name: function-flask
+          handler: handler
+          name: function-express
           path: .
-          type: flask
+          type: express
     language:
-        name: python
-        packageManager: pip
-    path: .
-name: coffee-regulatory-thrush
+        name: js
+    path: ./
+name: Servess
 region: us-east-1
 yamlVersion: 2
