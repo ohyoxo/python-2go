@@ -1,0 +1,14 @@
+backend:
+    functions:
+        - entry: app.py
+          handler: app
+          name: function-flask
+          path: .
+          type: flask
+    language:
+        name: python
+        packageManager: pip
+    path: .
+name: coffee-regulatory-thrush
+region: us-east-1
+yamlVersion: 2
